@@ -1,2 +1,4 @@
 Anime/*
+!Anime/.keep
 Temp/*
+!Temp/.keep
