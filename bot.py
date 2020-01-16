@@ -49,8 +49,8 @@ class AnimeDL:
         return masterJson
 
     def grabAnimePage(self):
-        # pageUrl = input('[?] Enter Page URL : ')
-        pageUrl = "https://www.kickassanime.rs/anime/enen-no-shouboutai-959141"
+        pageUrl = input('[?] Enter Page URL : ')
+        # pageUrl = "https://www.kickassanime.rs/anime/enen-no-shouboutai-959141"
         print('--------------------------------------------------')
 
         page = requests.get(pageUrl)
